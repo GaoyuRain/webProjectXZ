@@ -1,0 +1,15 @@
+test_phone_login:
+  test: pass
+test_account_login:
+  test01:
+    account: gaoyui
+    pwd: 001
+    expect_data: 错误
+    user_name:
+  test02:
+    account: gaoyui
+    pwd: GAOYU0829
+    expect_data: 成功
+    user_name: 高雨
+
+
